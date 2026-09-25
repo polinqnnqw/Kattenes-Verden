@@ -1,0 +1,63 @@
+========================================
+LÆRINGSLOGG: HTML OG CSS
+========================================
+
+Tema 1: Strukturering med semantiske tagger (header, section, article)
+--------------------------------------------------
+Hva gjorde jeg?
+- Jeg bygget opp en mer omfattende nettside om kattefakta ved hjelp av ryddig og moderne HTML-struktur.
+Hva kunne jeg fra før?
+- Jeg har laget en enkel nettside før i forbindelse med et badminton-arrangement, så jeg visste litt om hva HTML er og hvordan basis-tagger fungerer.
+Hva lærte jeg?
+- Jeg lærte å bruke mer avanserte og semantiske tagger som <header>, <main>, <section> og <article> for å organisere innholdet bedre enn sist.
+Hva prøvde jeg ut selv?
+- Jeg delte opp kattfaktaene i egne kort (<article>) med tittel, merkelapper (<span class="badge">) og avsnitt.
+
+Tema 2: Formatering og fremheving av fagstoff (<mark>, <strong>, <p>)
+--------------------------------------------------
+Hva gjorde jeg?
+- Jeg skrev utdypende tekster om katters egenskaper og fremhevet viktige poenger.
+Hva kunne jeg fra før?
+- Jeg visste hvordan man lager avsnitt med <p>, men var ikke så vant til spesielle fremhevingstagger.
+Hva lærte jeg?
+- Jeg lærte å bruke <mark> til å gi en gul markering på ekstra interessante fakta (som at katter ikke smaker søtt og at maling leger bein) og <strong> for å fremheve nøkkelord.
+Hva prøvde jeg ut selv?
+- I stedet for å bare teste taggene på tilfeldige ord, brukte jeg dem til å løfte frem faktiske fakta om kattenes superkrefter.
+
+Tema 3: Bilder, lenker og eksterne filer (<img>, <a>, <link>)
+--------------------------------------------------
+Hva gjorde jeg?
+- Jeg la inn et bilde av en katt, koblet til en ekstern CSS-fil, og laget en stilsett-knapp som lenker videre til mer informasjon.
+Hva kunne jeg fra før?
+- Jeg visste hvordan man setter inn et bilde og en lenke fra badminton-siden min, men husket ikke alt utenom.
+Hva lærte jeg?
+- Jeg repetitionerte 'src', 'alt', og 'href', og lærte hvordan <link rel="stylesheet"> koble sammen HTML- og CSS-filer.
+Hva prøvde jeg ut selv?
+- Jeg knyttet bildet "kotik.jpg" inn i en egen bildeboks og laget en styling-knapp for utgående lenke som åpner i ny fane (target="_blank").
+
+Tema 4: Ekstern CSS Styling, Layout og Effekt-kort (style.css)
+--------------------------------------------------
+Hva gjorde jeg?
+- Jeg opprettet en egen style.css-fil hvor jeg skapte et moderne design med skygger, fargekoder, hover-effekter og responsivt rutenett.
+Hva kunne jeg fra før?
+- Jeg hadde prøvd litt enkel CSS i badminton-prosjektet mitt, men det var gjerne rett i HTML-filen og veldig grunnleggende.
+Hva lærte jeg?
+- Jeg lærte å skille HTML og CSS i to filer, bruke CSS Grid til å plassere bokser ved siden av hverandre, border-radius for myke hjørner, box-shadow og :hover-effekter når musa holdes over boksene.
+Hva prøvde jeg ut selv?
+- Jeg laget et helhetlig fargetema med lilla og rødnyanser, og ga fakta-kortene en animasjon slik at de "løfter seg" litt opp når du peker på dem med musen.
+
+========================================
+EGENVURDERING
+========================================
+
+I denne oppgaven jobbet jeg selvstendig i VS Code for å bygge videre på det jeg allerede kunne. 
+Siden jeg tidligere har laget en nettside til et badminton-arrangement, var jeg litt kjent med grunnkonseptet i HTML og CSS fra før, 
+men denne gangen ønsket jeg å gå litt dypere.
+
+Det som fungerte best for meg i denne økta var å skille koden ryddig i en index.html-fil og en style.css-fil, 
+samt å prøve ut koden fortløpende i nettleseren. Jeg erfarte at det var mye morsommere å jobbe når siden fikk et skikkelig 
+moderne utseende med kort-oppsett, farger og ekte fakta.
+
+Gjennom arbeidet lærte jeg mer om semantisk oppbygning av nettsider, styling av bilde- og lenkebokser, fremheving av tekst med <mark>,
+ og CSS-teknikker som hover-effekter og CSS Grid. Videre ønsker jeg å lære enda mer om hvordan man kan lage animasjoner og tilpasse nettsider 
+ perfekt for mobilskjermer (responsivt design).

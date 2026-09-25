@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kattenes Verden - Superkrefter og Mysterier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Kattenes Verden 🐾</h1>
+        <p class="subtitle">Utrolige fakta, superkrefter og hemmeligheter om våre firbeinte venner</p>
+        <button id="theme-btn" class="interactive-btn">🌙 Bytt til mørk modus</button>
+    </header>
+
+    <main class="container">
+
+        <section class="intro-card">
+            <h2>Hvorfor fascinerer katter oss?</h2>
+            <p>
+                Katter har levd sammen med mennesker i tusenvis av år, helt siden det gamle Egypt hvor de ble tilbedt som guddommelige vesener. 
+                Selv om vi deler hjemmene våre med dem i dag, bærer katter fortsatt på en rekke <mark>mystiske og unike egenskaper</mark> som gjør dem til helt fantastiske kjæledyr.
+            </p>
+        </section>
+
+        <section class="interactive-section">
+            <div class="interactive-card">
+                <h2>Klapp katten! 🐱</h2>
+                <p>Trykk på knappen for å klappe katten og se hva som skjer:</p>
+                <button id="pet-btn" class="interactive-btn">Klapp katten 🐾</button>
+                <p class="counter-text">Du har klappet katten <span id="pet-count">0</span> ganger!</p>
+                <p id="pet-message" class="dynamic-message"></p>
+            </div>
+
+            <div class="interactive-card">
+                <h2>Dagens Kattesitat ✨</h2>
+                <p id="quote-display">Klikk på knappen for å få et tilfeldig kattesitat!</p>
+                <button id="quote-btn" class="interactive-btn">Nytt sitat 🎲</button>
+            </div>
+        </section>
+
+        <section class="facts-grid">
+            
+            <article class="fact-card">
+                <span class="badge">Super-sanser</span>
+                <h2>1. Værhår som biologisk radar</h2>
+                <p>
+                    Kattes værhår er ikke bare vanlige hår – de er fulle av sensitive nerveender. 
+                    Med værhårene sine kan katter kjenne de minste endringer i luftstrømmer, noe som gjør at de kan 
+                    <strong>jakte med ekstrem presisjon i stummende mørke</strong> uten å skumpe borti hindringer.
+                </p>
+            </article>
+
+            <article class="fact-card">
+                <span class="badge">Smakssans</span>
+                <h2>2. Mangler søtsans helt</h2>
+                <p>
+                    Visste du at katter har en spesiell genmutasjon som gjør at de mangler smaksreseptorer for sukker? 
+                    Det betyr at en katt vil <mark>aldri kjenne smaken av sjokolade, kake eller godteri</mark>. 
+                    De er rene kjøttetere (obligate karnivorer) og bryr seg utelukkende om smaken av proteiner og fett.
+                </p>
+            </article>
+
+            <article class="fact-card">
+                <span class="badge">Kommunikasjon</span>
+                <h2>3. Hvorfor maler katter?</h2>
+                <p>
+                    Maling er ikke bare et tegn på at katten er fornøyd. Katter maler også på en frekvens mellom 20 og 140 Hz, en vibrasjon som forskning viser kan 
+                    <mark>fremme helbredelse av bein og vev</mark> samt redusere stress og smertestillende effekter hos både katten selv og mennesker rundt den!
+                </p>
+            </article>
+
+        </section>
+
+        <section class="media-section">
+            <div class="image-box">
+                <h2>Møt dagens stjerne</h2>
+                <img src="kotik.jpg" alt="En søt og sjarmerende katt som blinker" class="cat-image">
+                <p class="caption">En katt som viser frem sin unike personlighet!</p>
+            </div>
+
+            <div class="link-box">
+                <h2>Vil du fordype deg enda mer?</h2>
+                <p>
+                    Det finnes uendelig mange utrolige ting å lære om katteslekten. 
+                    Vil du lese over 70 andre spennende og merkelige fakta om katter?
+                </p>
+                <a href="https://www.factretriever.com/cat-facts" target="_blank" class="btn-link">Utforsk tusenvis av kattefakta her ➔</a>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
