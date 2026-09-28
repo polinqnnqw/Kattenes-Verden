@@ -26,6 +26,39 @@ const quotes = [
     "«En katt vil bare være venner med deg hvis du gjør deg fortjent til det.» – Ukjent"
 ];
 
+const freqInput = document.getElementById('freq-input');
+const freqBtn = document.getElementById('freq-btn');
+const freqResult = document.getElementById('freq-result');
+
+freqBtn.addEventListener('click', checkHearing);
+
+freqInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        checkHearing();
+    }
+});
+
+function checkHearing() {
+    const freq = Number(freqInput.value);
+
+    if (!freqInput.value || freq < 0) {
+        freqResult.textContent = "Vennligst skriv inn en gyldig frekvens!";
+        freqResult.style.color = "var(--accent-pink)";
+        return;
+    }
+
+if (freq >= 25 && freq <= 150) {
+        freqResult.textContent = `Ja, katten kan høre ${freq} Hz! 🐱`;
+        freqResult.style.color = "var(--primary)";
+    } else if (freq < 25) {
+        freqResult.textContent = `${freq} Hz er for lavt – katten vil ikke høre det. 🔊`;
+        freqResult.style.color = "var(--text-muted)";
+    } else {
+        freqResult.textContent = `${freq} Hz er over 150 Hz! 🚀`;
+        freqResult.style.color = "var(--accent-pink)";
+    }
+}
+
 const quoteBtn = document.getElementById('quote-btn');
 const quoteDisplay = document.getElementById('quote-display');
 
